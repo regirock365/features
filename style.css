@@ -1,0 +1,7 @@
+/*
+* CSS Feature Queries
+*/
+@supports (display: grid) {
+    // code for newer browsers
+    // including overrides of the code above, if needed
+}
