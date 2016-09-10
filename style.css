@@ -2,6 +2,18 @@
 * CSS Feature Queries
 */
 @supports (display: grid) {
-    // code for newer browsers
-    // including overrides of the code above, if needed
+    /*
+    code for newer browsers
+    including overrides of the code above, if needed
+    */
+}
+
+.modal {
+  /*
+  complete centering both vertically and horizontally without explicitly knowing the width or height
+  */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
